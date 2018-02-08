@@ -194,12 +194,28 @@ console.log(checkProduct());
  * Console.log your result.  
 */
 
+function checkQuotient() {
+	return product * quotient;
+}
+console.log(checkQuotient());
+
+var bango3 = 3;
+console.log(bango3);
+
+var bango4 = 5;
+console.log(bango4);
+
+var bango5 =7;
+console.log(bango5);
+
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
  
+
+
  * #10
  * Function - addThenSubtract
  *   
