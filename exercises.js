@@ -46,17 +46,12 @@ console.log(bango2);
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
-var num1 = 5;
-console.log(num1);
-
-var num2 = 7;
-console.log(num2);
 
 function add(number) {
 	return number;
 }
 
-var sum = add(num1+num2);
+var sum = add(bango1+bango2);
 console.log (sum);
 
 
@@ -77,7 +72,7 @@ function subtract(number) {
 	return number;
 }
 
-var difference = subtract(num1 - num2);
+var difference = subtract(bango1 - bango2);
 console.log(difference);
 
 
@@ -99,7 +94,7 @@ function multiply(number) {
 	return number;
 }
 
-var product = multiply(num1 * num2);
+var product = multiply(bango1 * bango2);
 console.log(product);
 
 
@@ -120,7 +115,7 @@ function divide(number) {
 	return number;
 }
 
-var quotient = divide(num1/num2);
+var quotient = divide(bango1/bango2);
 console.log(quotient);
 
 
@@ -199,6 +194,15 @@ function checkQuotient() {
 }
 console.log(checkQuotient());
 
+
+
+/*
+ * Declare three variables
+ *   @variable Datatype: Number `bango3`
+ *   @variable Datatype: Number `bango4`
+ *   @variable Datatype: Number `bango5`
+ */
+
 var bango3 = 3;
 console.log(bango3);
 
@@ -207,15 +211,7 @@ console.log(bango4);
 
 var bango5 =7;
 console.log(bango5);
-
 /*
- * Declare three variables
- *   @variable Datatype: Number `bango3`
- *   @variable Datatype: Number `bango4`
- *   @variable Datatype: Number `bango5`
- 
-
-
  * #10
  * Function - addThenSubtract
  *   
@@ -230,6 +226,12 @@ console.log(bango5);
  * Console.log your result.
 */ 
 
+
+
+function addThenSubtract(num1, num2, num3) {
+	return subtract(add(num1, num2), num3);
+}
+console.log(addThenSubtract(bango3, bango4, bango5));
 
 
 /*
