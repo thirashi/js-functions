@@ -73,6 +73,12 @@ console.log (sum);
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
+function subtract(number) {
+	return number;
+}
+
+var difference = subtract(num1 - num2);
+console.log(difference);
 
 
 
