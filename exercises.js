@@ -116,7 +116,12 @@ console.log(product);
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
+function divide(number) {
+	return number;
+}
 
+var quotient = divide(num1/num2);
+console.log(quotient);
 
 
 /*
