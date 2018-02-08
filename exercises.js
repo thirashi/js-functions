@@ -32,7 +32,6 @@ console.log(bango1);
 var bango2 = 9;
 console.log(bango2);
 
-
 /*
  * #2
  * Function - add
@@ -47,7 +46,18 @@ console.log(bango2);
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
+var num1 = 5;
+console.log(num1);
 
+var num2 = 7;
+console.log(num2);
+
+function add(number) {
+	return number;
+}
+
+var sum = add(num1+num2);
+console.log (sum);
 
 
 /*
