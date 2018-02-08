@@ -26,7 +26,11 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
+var bango1 = 5;
+console.log(bango1);
 
+var bango2 = 9;
+console.log(bango2);
 
 
 /*
