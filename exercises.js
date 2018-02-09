@@ -289,6 +289,14 @@ console.log(myFullName);
  * Console.log your result.
  */
 
+function eatFood(firstName, lastName, food) {
+
+return createFullName(firstName, lastName) + " eats " + food + "everyday for breakfast.";
+
+}
+
+var combine = eatFood("Tyler", " Hirashima", "ramen");
+console.log(combine)
 
 
 /************** ENGAGE HYPERDRIVE **************/
