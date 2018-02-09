@@ -330,8 +330,18 @@ console.log(shoeSize(3));
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
 
+var quote ="believe you can and you're halfway there";
+console.log(quote)
+ 
+function allCaps(str) {
+
+return str.toUpperCase();
+
+}
+
+var res = allCaps(quote);
+console.log(res);
 
 /*
  * #16
