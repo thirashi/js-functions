@@ -267,6 +267,13 @@ console.log(multiplyThenDivide(bango3, bango4, bango5));
 */
 
 
+function createFullName(firstName, lastName) {
+
+	return firstName + lastName;
+
+}
+var myFullName = createFullName("Tyler", " Hirashima");
+console.log(myFullName);
 
 /*
  * #13 
