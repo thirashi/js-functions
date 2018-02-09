@@ -291,12 +291,12 @@ console.log(myFullName);
 
 function eatFood(firstName, lastName, food) {
 
-return createFullName(firstName, lastName) + " eats " + food + "everyday for breakfast.";
+return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast.";
 
 }
 
 var combine = eatFood("Tyler", " Hirashima", "ramen");
-console.log(combine)
+console.log(combine);
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -312,6 +312,13 @@ console.log(combine)
  * Console.log your result. 
 */
 
+function shoeSize(inches) {
+
+return  inches + " inch converts to " + inches *2.54 + " centimeters.";
+
+}
+
+console.log(shoeSize(3));
 
 
 /*
